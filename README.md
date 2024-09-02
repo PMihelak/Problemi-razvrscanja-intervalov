@@ -59,11 +59,11 @@ Vsaka vrstica vhoda je oblike x,y. Čas prihoda intervala predstavlja x, čas pr
 - programi, ki sprejmejo ta vhod: razvrscanje_sprotno.py
 - primer vhoda:
 
-    1,6
-    2,5
-    4,4
-    8,2
-    6,3
+    1,6  
+    2,5  
+    4,4  
+    8,2  
+    6,3  
     
 ### Primerjava algoritmov
 Program izmeri časovne zahtevnosti zgoraj navedenih algoritmov tako, da določene algoritme izvaja na naključnih vhodnih podatkih. Poljubno lahko tudi nastavimo določene parametre:
