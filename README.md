@@ -67,12 +67,12 @@ Vsaka vrstica vhoda je oblike x,y. Čas prihoda intervala predstavlja x, čas pr
     
 ### Primerjava algoritmov
 Program izmeri časovne zahtevnosti zgoraj navedenih algoritmov tako, da določene algoritme izvaja na naključnih vhodnih podatkih. Poljubno lahko tudi nastavimo določene parametre:
-- bool_razvrscanje_naivno (boolean) - 
-- bool_razvrscanje_boljse (boolean) - 
-- bool_razvrscanje_utezeno (boolean) - 
-- bool_razvrscanje_vecnitno_naivno (boolean) - 
-- bool_razvrscanje_vecnitno_boljse (boolean) - 
-- bool_razvrscanje_utezeno_vecnitno (boolean) - 
+- bool_razvrscanje_naivno (boolean) - ali naj se izvedejo meritve za naivni algoritem razvrščanja neuteženih intervalov na enem procesorju
+- bool_razvrscanje_boljse (boolean) - ali naj se izvedejo meritve za boljši algoritem razvrščanja neuteženih intervalov na enem procesorju
+- bool_razvrscanje_utezeno (boolean) - ali naj se izvedejo meritve za razvrščanje uteženih intervalov na enem procesorju
+- bool_razvrscanje_vecnitno_naivno (boolean) - ali naj se izvedejo meritve za naivni algoritem razvrščanja neuteženih intervalov na več procesorjih
+- bool_razvrscanje_vecnitno_boljse (boolean) - ali naj se izvedejo meritve za boljši algoritem razvrščanja neuteženih intervalov na več procesorjih
+- bool_razvrscanje_utezeno_vecnitno (boolean) - ali naj se izvedejo meritve za razvrščanje uteženih intervalov na več procesorjih
 - zac_st_intervalov (int) - število generiranih intervalov, pri katerem opravimo prvo meritev
 - povecanje_st_intervalov (int) - razlika med številoma intervalov med zaporednima meritvama
 - zac_st_niti (int) - število procesorjev, pri katerem opravimo prvo meritev
