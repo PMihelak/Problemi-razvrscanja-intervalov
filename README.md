@@ -11,7 +11,7 @@ Repozitorij vsebuje implementacije algoritmov za razvrščanje intervalov in pro
 - primerjava_algoritmov.py - program za merjenje časov izvajanj implementiranih algoritmov
 - vhod.txt - vhodni podatki za algoritme
 - izhod.txt - izpis rezultatov
-## Primeri vhodnih podatkov
+## Vhodni podatki
 ### Razvrščanje neuteženih intervalov na enem procesorju
 V vsaki vrstici je podan en interval oblike (x,y), kjer je x začetek intervala, y pa konec.  
 - programi, ki sprejmejo ta vhod: razvrscanje_naivno.py, razvrscanje_boljse.py
